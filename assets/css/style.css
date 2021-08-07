@@ -25,6 +25,8 @@ body {
 }
 
 /* All div selectors within .header class changed to nav */
+
+                                                /* Navigation Bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -91,6 +93,8 @@ p {
 
 /* Consolidated classes with like formatting to eliminate unneccessary redundancies in styling code */
 
+
+                                                /* Main Content */
 .main-content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,7 +112,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+                                                /* Benefits Sidebar */
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
@@ -125,9 +129,7 @@ p {
     text-align: center;
 }
 
-
-
-
+                                                /* Footer Banner */
 footer {
     /* Added background color to create footer banner in attempt to improve design content */
     background-color:rgb(192, 192, 192);
@@ -142,7 +144,7 @@ footer {
     font-size: 20px;
 }
 
-
+/* Implemented media query to improve accessibility on smaller devices */
 @media screen and (max-width: 1025px) {
 
     .header {
